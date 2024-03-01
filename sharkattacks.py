@@ -29,7 +29,7 @@ with col1:
     st.write("")
     st.write("")
     st.write("")
-    fatal_filter = st.radio("Filter by Fatal Incidents:", ["Yes", "No", "Both"])
+    fatal_filter = st.radio("Filter by Fatal Incidents:", ["Yes", "No", "Both"], index=2)
 
 with col2:
     st.image("shark.jpg", width=340)
